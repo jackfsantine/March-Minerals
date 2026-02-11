@@ -61,6 +61,17 @@ h3 {
   color: var(--text);
   font-size: 1.35rem;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line);
 }
 
 .nav-list {
@@ -205,14 +216,17 @@ h1 {
   min-height: 3.5rem;
 }
 
-.product-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.product-details {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.25rem;
 }
 
-.product-meta span {
-  font-weight: 700;
+.product-details strong {
+  color: var(--text);
 }
 
 button {
@@ -292,5 +306,9 @@ textarea {
   .nav-wrap {
     flex-direction: column;
     gap: 0.65rem;
+  }
+
+  .brand {
+    font-size: 1.2rem;
   }
 }
