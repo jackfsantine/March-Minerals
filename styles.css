@@ -199,17 +199,13 @@ h1 {
 }
 
 .stone-visual {
-  height: 120px;
+  width: 100%;
+  height: 140px;
   border-radius: 0.75rem;
   margin-bottom: 0.9rem;
+  object-fit: cover;
+  border: 1px solid var(--line);
 }
-
-.amethyst { background: linear-gradient(135deg, #6e49b8, #d8c2ff); }
-.rose { background: linear-gradient(135deg, #cd7ca1, #ffe0ec); }
-.citrine { background: linear-gradient(135deg, #c28d1c, #ffe589); }
-.obsidian { background: linear-gradient(135deg, #23252e, #6a6f84); }
-.fluorite { background: linear-gradient(135deg, #4f8b7f, #b9a8ff); }
-.moonstone { background: linear-gradient(135deg, #8d93b2, #f0f4ff); }
 
 .product-card p {
   color: var(--muted);
